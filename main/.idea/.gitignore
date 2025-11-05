@@ -6,3 +6,8 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+echo ".DS_Store" >> .gitignore
+echo "*.iml" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "/main/main" >> .gitignore # 排除 Go 编译的二进制文件
+echo ".idea/" >> .gitignore
