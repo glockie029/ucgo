@@ -1,7 +1,8 @@
 package main
 
 import (
-	"PracticeGo/structpractice"
+	"PracticeGo/MethodPractice"
+	"PracticeGo/interfacePractice"
 	"fmt"
 	"reflect"
 	"unicode/utf8"
@@ -119,5 +120,17 @@ func main() {
 	//		fmt.Printf("%d是偶数\n", i)
 	//	}
 	//}
-	structpractice.Main()
+	//structpractice.Main()
+	//MethodPractice.Inherit()
+	//MethodPractice.Inherit1()
+	//MethodPractice.MagicMain()
+	//MethodPractice.MethodStringMain()
+	MethodPractice.ScanMain()
+	simpleinterface := &interfacePractice.Simple{Salary: 13000}
+	valuesalary := interfacePractice.InterfaceMain(simpleinterface, 12000)
+	fmt.Println(valuesalary)
+	fmt.Println("=====================")
+	interfacePractice.ReflectMain()
+	interfacePractice.Reflectstruct()
+	interfacePractice.MapInterfaceMain()
 }
