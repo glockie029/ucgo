@@ -1,8 +1,6 @@
 package main
 
 import (
-	"PracticeGo/MethodPractice"
-	"PracticeGo/interfacePractice"
 	"fmt"
 	"reflect"
 	"unicode/utf8"
@@ -125,12 +123,13 @@ func main() {
 	//MethodPractice.Inherit1()
 	//MethodPractice.MagicMain()
 	//MethodPractice.MethodStringMain()
-	MethodPractice.ScanMain()
-	simpleinterface := &interfacePractice.Simple{Salary: 13000}
-	valuesalary := interfacePractice.InterfaceMain(simpleinterface, 12000)
-	fmt.Println(valuesalary)
-	fmt.Println("=====================")
-	interfacePractice.ReflectMain()
-	interfacePractice.Reflectstruct()
-	interfacePractice.MapInterfaceMain()
+	//MethodPractice.ScanMain()
+	//simpleinterface := &interfacePractice.Simple{Salary: 13000}
+	//valuesalary := interfacePractice.InterfaceMain(simpleinterface, 12000)
+	//fmt.Println(valuesalary)
+	//fmt.Println("=====================")
+	//interfacePractice.ReflectMain()
+	//interfacePractice.Reflectstruct()
+	//interfacePractice.MapInterfaceMain()
+	//AdvancedFunc.AdvanceMain()
 }
